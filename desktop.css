@@ -1,0 +1,100 @@
+.container{
+    display: flex;
+    background-color: white;
+    border: 1px solid white;
+    width: 500px;
+    border-radius: 10px;
+    
+}
+body{
+    padding-left: 350px;
+    background-color: rgba(255, 228, 196, 0.446);
+    padding-top: 150px;
+    padding-right: 400px;
+}
+.side{
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.gab{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 30px;
+}
+.dos{
+    display: flex;
+    gap: 10%;
+}
+.btn{
+    
+    border: 1px solid rgba(0, 128, 0, 0.336);
+    background-color: green;
+    border-radius: 7px;
+    color: white;
+    display: flex;
+    padding-left: 0px;
+    padding-top: 10px;  
+    justify-content: center;
+    padding-bottom: 10px;
+    gap: 5px;
+}
+.cart{
+    padding-bottom: 20px;
+    padding-top: 5px;
+
+
+}
+.wwe{
+    border: 1px solid white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+   
+}
+
+
+
+.perfume{
+    color: rgba(0, 0, 0, 0.399);
+
+}
+.flora{
+    color: rgba(0, 0, 0, 0.399);
+}
+.sr{
+    color: darkgreen;
+    font-weight: 900;
+    font-size: 30px;
+}
+.sd{
+    padding-top: 8px;
+
+}
+.mobile{
+    visibility: hidden;
+    display: none;
+}
+@media (max-width:480px) {
+    .container{
+        display: grid;
+        width: 480px;
+    }
+    body{
+        padding: 0px;
+        background-color:white;
+    }
+    .desktop{
+        display: none;
+        visibility: hidden;
+    }
+    .mobile{
+        visibility: visible;
+        display: block;
+        width: 480px;
+    }
+    .gab{
+        font-size: 50px;
+    }
+    .side{
+        padding-left: 0px;
+    }
+}
